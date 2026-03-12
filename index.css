@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgrey;
+}
+.main{
+  border: 2px solid black;
+  height: 30rem;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: white;
+  padding-bottom: 10px;
+  overflow-y: auto;
+}
+.main::-webkit-scrollbar{
+  width:8px;
+}
+
+.main::-webkit-scrollbar-track{
+  background:#f1f1f1;
+  border-radius:10px;
+}
+
+.main::-webkit-scrollbar-thumb{
+  background:#bbb;
+  border-radius:10px;
+}
+
+.main::-webkit-scrollbar-thumb:hover{
+  background:#888;
+}
+i{
+  font-size: 1.5rem;
+}
+h1{
+  margin-top: 1.5rem;
+  font-size: 1.9rem;
+}
+input{
+  width: 70%;
+  border-radius: 0.5rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  border: 2px solid black;
+  justify-content: center;
+  text-align: center;
+}
+.add-btn{
+  margin-left: 1rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 0.5rem;
+  border:2px solid black;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  text-align:center;
+}
+li{
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  width: 90%;
+  margin: 10px auto;
+  padding: 5px;
+  padding-left: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-word;
+}
+.del-btn{
+  margin-right: 10px;
+  color: red;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
